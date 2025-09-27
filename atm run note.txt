@@ -1,0 +1,9 @@
+how to run white label atm 
+cd Desktop\atm pro
+
+python screen1.py
+
+playsound library - if this doesnt support go with below one - 
+he error you're encountering is related to the playsound library and its compatibility with Python 3.13. The playsound library might not yet support Python 3.13, or there could be an issue with the installation process.
+
+To resolve this, we can use an alternative library called pygame, which is more robust and widely used for playing sounds in Python. Here's how you can modify your code to use pygame instead of playsound.
